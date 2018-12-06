@@ -1,8 +1,9 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
+const token = process.env.token
 const prefix = '->'
 
-bot.login('NDg1NTU4NzcyMDgxNjIzMDQx.DurXZA.wKuqznFZ0na0S6n6W0Se7do7fM0')
+bot.login(token)
 
 bot.on('ready', function () {
     console.log('Bot Online ! \n-----')
