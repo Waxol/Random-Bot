@@ -1,4 +1,5 @@
 const Discord = require('discord.js')
+const token = process.env.token
 const MySQL = require('mysql')
 const bot = new Discord.Client()
 const prefix = '-->'
