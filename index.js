@@ -3,7 +3,7 @@ const MySQL = require('mysql')
 const bot = new Discord.Client()
 const prefix = '-->'
 
-bot.login('https://git.heroku.com/random-bot-waxol.git')
+bot.login(token)
 
 bot.on('ready', function () {
     console.log('Bot Online ! \n-----')
